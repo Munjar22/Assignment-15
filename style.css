@@ -240,8 +240,18 @@ h4{
     background-color: rgb(41, 204, 153);
     padding: 10px;
     margin-left: 30px;
-
 }
+.footerbtm{
+    width: 1200px;
+    margin: auto;
+    background-color:rgb(46, 65, 79);
+    line-height: 40px;;
+}
+.footerbtm p{
+    color: #fff;
+    text-align: center;
+}
+
 
 
 
