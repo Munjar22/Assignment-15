@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.fullwebsite{
+    width: 1200px;
+    margin: auto;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+/* header */
+.header{
+    background-color: rgb(93, 193, 161);
+}
+.hdleft h1{
+    font-size: 40px;
+    color: aliceblue;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+.hdleft{
+    float: left;
+    width: 40%;
+}
+.hdright{ 
+    float: right;
+    width: 60%;
+}
+.hdright ul{
+    text-align: right; 
+}
+.hdright ul li{
+    display: inline-block;
+    margin-left: -4px;
+}
+.hdright ul li a{
+    display: inline-block;
+    text-decoration:none;
+    color: aliceblue;
+    font-size: 20px;
+    padding: 0px 20px;
+    line-height: 75px;
+    transition: 1s;
+}
+.hdright ul li a:hover{
+    color: #000;
+}
+/* welcome */
+.welcome{
+    height: 600px;
+    background-image: url(./header-bg01.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+.welcome h1{
+    text-align: center;
+    font-size: 80px;
+    color: aliceblue;
+    padding: 150px;
+}
+.welcome h4{
+    text-align: center;
+    font-size: 30px;
+    color: aliceblue;
+    margin-top: -140px;
+    margin-bottom: 50px;
+}
+.welcome a{
+    color: aliceblue;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 15px 20px;
+    border: 1px solid aliceblue;
+    border-radius: 8px;
+}
+.welcome a:hover{
+    background: #000;
+    transform: translateX(-40px);
+    border: 1px solid #000;
+    border-radius: 8px;
+    transition: 2s;
+}
+.service{
+    text-align: center;
+}
+.service h2{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 120px;
+}
+
+.para1{
+    color:rgb(43, 46, 45);
+    text-align: center;
+    font-size: 25px;
+    margin-top: 20px;
+}
+.webdesign{
+    width: 250px;
+    height: auto;
+    display: inline-block;
+    margin-top: 100px;
+}
+.graphicdesign{
+    width: 250px;
+    height: auto;
+    display: inline-block;
+    margin-left: 60px;
+    margin-top: 100px;
+}
+.appdevlopment{
+    width: 250px;
+    height: auto;
+    display: inline-block;
+    margin-left: 60px;
+    margin-top: 100px;
+}
+.digitalmarketing{
+    width: 250px;
+    height: auto;
+    display: inline-block;
+    margin-left: 60px;
+    margin-top: 100px;
+}
+.icon1{
+    font-size: 50px;
+    color: rgb(41, 204, 153);
+}
+h3{
+    color: rgb(43, 46, 45);
+    font-size: 25px;
+    padding: 10px 5px;
+}
+.para2{
+    color: rgb(43, 46, 45);
+    font-size: 15px;
+}
+.line{
+    width: 100%;
+    height: 3px;
+    background-color:rgb(41, 204, 153);
+    margin-top: 150px;
+}
+.about{
+    width: 100%;
+    margin-top: 80px;
+}
+.about h2{
+    text-align: center;
+    color:rgb(43, 46, 45);
+    font-size: 50px;
+}
+.para3{
+    text-align: center;
+    color:rgb(43, 46, 45);
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.box{
+    margin-top: 50px;
+}
+.image{
+    width: 40%;
+    float: left;
+}
+.para{
+    width: 60%;
+    float: right;
+    margin-top: 30px;
+}
+h4{
+    margin-left: 150px;
+}
+.para4{
+    color: gray;
+    margin-left: 150px;
+}
+
+.contact{
+    width: 100%;
+    text-align: center;
+}
+.contactus{
+    clear: both;
+    padding-top: 100px;
+    
+}
+.contactus h2{
+    font-size: 50px;
+}
+.para5{
+    text-align: center;
+    font-size: 20px;
+}
+.location{
+    width: 150px;
+    height: auto;
+    display: inline-block;
+    margin-top: 100px;
+}
+.gmail{
+    width: 150px;
+    height: auto;
+    display: inline-block;
+    margin-left: 250px;
+}
+.phone{
+    width: 150px;
+    height: auto;
+    display: inline-block;
+    margin-left: 250px;
+}
+.icon2{
+    font-size: 40px;
+    color: rgb(41, 204, 153);
+    margin-left: 30px;
+}
+
+.para6{
+    width: 180px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.footer{
+    margin-top: 150px;
+    text-align: center;
+}
+.footer ul{
+    background-color: rgb(41, 204, 153)
+}
+.footer ul li{
+    font-size: 50px;
+    display: inline-block;
+    color: aliceblue;
+    background-color: rgb(41, 204, 153);
+    padding: 10px;
+    margin-left: 30px;
+
+}
+
+
+
